@@ -13,7 +13,9 @@
         "appium-xcuitest-driver": "^4.16.12"
     },
     "scripts": {
+        "test": "wdio run ./wdio.conf.js",
         "wdioAndroid": "wdio run config/android-wdio.conf.js",
         "wdioIos": "wdio run config/ios-wdio.conf.js"
+
     }
 }
